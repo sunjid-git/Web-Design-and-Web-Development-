@@ -1,0 +1,16 @@
+h2{
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Syne Mono', monospace;
+
+}
+.text-right{
+    font-size:25em;
+    font-weight: bold;
+}
+
+.centera{
+    text-align: right;
+}
+
+.heading{font-size: 30px;} 
