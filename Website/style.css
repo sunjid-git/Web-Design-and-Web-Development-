@@ -1,0 +1,52 @@
+.header{
+    background: rgb(218, 155, 119);
+   
+}
+
+.header-logo img{
+    width: 75px;
+}
+
+.primary-menu{}
+.primary-menu ul{
+    margin-bottom: 0;
+    text-align: right;
+}
+.primary-menu ul li{
+    display: inline-block;
+    margin-left:  -4px;
+}
+.primary-menu ul li a{
+    display: block;
+    color: teal;
+    padding: 0 30px;
+    font-size: 20px; 
+    line-height: 60px;
+    border-right: 1px solid #fff;
+}
+.primary-menu ul li a:hover{}
+
+.banner{
+    background-image: url(./banner.jpg);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.service{
+    background-color: #f9f9f9;
+
+}
+img{
+    max-width:50% ;
+    
+}
+
+.footer p{
+    margin-bottom: 0;
+}
+
+.footer a{
+    margin-left: 15px;
+
+}
