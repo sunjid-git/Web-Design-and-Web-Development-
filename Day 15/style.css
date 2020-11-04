@@ -1,0 +1,46 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 25px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h2{
+   color: rgb(255, 255, 255);
+   background-color: rgb(36, 34, 184);
+}
+h3{
+    color: rgb(255, 255, 255);
+    background-color: coral;
+}
+,div1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(128, 122, 41);
+}
+.div{
+    color: rgb(255, 255, 255);
+    background-color: darkkhaki;
+}
+
+a{
+    background-color: dodgerblue;
+    
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 25px;
+    color: firebrick;
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    text-decoration: none;
+    border: 5px solid rebeccapurple;
+    
+}
