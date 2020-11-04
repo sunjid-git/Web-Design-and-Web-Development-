@@ -1,0 +1,25 @@
+h3{
+    text-decoration: line-through;
+    text-align: end;
+    letter-spacing: 50px;
+    text-transform: lowercase;
+    color: rgb(125, 61, 189);
+    background-color: rgb(88, 20, 57);
+  
+} 
+
+h2{
+
+    text-shadow:2px 2px red;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: lowercase;
+
+
+}
+
+p{
+    font-size: 12;
+   
+    line-height: 50px;
+}
