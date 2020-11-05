@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.full-website{
+    margin: 0 auto;
+    text-align: center;
+    color: #576574;
+    width: 1024px;
+    box-shadow: 5px 5px 5px royalblue;
+   
+}
+.menu{
+    background: #ced6e0;
+}
+
+.container{
+    background: #4b6584;
+    color: bisque;
+}
+.footer{
+    background: #4b7bec;
+    color: beige;
+}
+.footer-bottom{
+    color: aliceblue;
+    background: #3867d6;
+}
+
+img{
+    max-width: 100%;
+    margin-bottom: -5px;
+}
+
+.our-padding{
+    padding: 25px 0;
+}
+.opx{
+    padding: 50px 0;
+}
