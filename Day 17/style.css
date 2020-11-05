@@ -1,0 +1,45 @@
+h2{
+    color: seagreen;
+}
+.first-div{
+    height: 200px;
+    width: 200px;
+    background: darkgoldenrod;
+}
+
+.first-div:hover{
+    background: #000;
+    cursor: pointer;
+    transition: .5s;
+}
+
+ul li a{
+    color: darkorange;
+    text-decoration: none;
+}
+
+ul.header-menu li a{
+    color: indigo;
+    
+    text-decoration: none;
+}
+
+.header-menu li:first-child a{
+    color: red;
+}
+
+
+.header-menu li:last-child a{
+    color: red;
+}
+
+div p{
+    color: goldenrod;
+}
+
+.footer-menu :nth-child(1) a{
+    color: red;
+}
+.footer-menu :nth-child(2) a{
+    color: royalblue;
+}
