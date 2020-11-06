@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main-menu{
+    text-align: center;
+}
+.main-menu li{
+    display: inline-block;
+    margin-left: -5px;
+}
+
+.main-menu li a{
+    padding: 10px;
+    background-color: tomato;
+    color: white;
+    display: inline-block;
+    border: 1px solid slateblue;
+    text-decoration: none;
+}
+
+.main-menu li a:hover{
+    background: royalblue;
+    transition: .5s;
+    border-color: red; 
+}
+
+.another{
+    background-image: url(img/night-home.jpg);
+    background-position: top center ;
+    text-align: center;
+    
+    background-repeat: repeat;
+    background-size: contain;
+    padding: 250px 0;
+    background-attachment: fixed;
+    
+
+}
+
+.test1{
+    height:1000px
+
+}
