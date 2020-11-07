@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header-menu{
+    background-color: #3498db;
+}
+.header-menu ul{
+    text-align: center; 
+}
+.header-menu ul li{
+    display: inline-block;
+    margin-left: 0px;
+}
+.header-menu ul li a{
+    color: seashell;
+    padding: 11px 14px;
+    display: inline-block;
+    font-size: 18px;
+    text-decoration: none;
+    border-right: 1px solid oldlace;
+}
+.header-menu ul li:first-child a{
+    border-left: 1px solid oldlace;
+}
+.header-menu ul li a:hover{
+    background: #2980b9
+}
+
+
+/* Drop Down */
+.header-menu ul li{
+    position: relative;
+} 
+.header-menu ul li ul{
+     position: absolute;
+    background: #3498db;
+    left: -7%;
+    top: 101%;
+    width: 116px;
+    border-top:1px solid  #ddd;
+    transition: .4s ;
+   
+     
+}
+.header-menu ul li ul li{ 
+    display: block;
+}
+.header-menu ul li ul li a{
+    display: block;
+    border-bottom:1px solid  #ddd ;
+}
+
+/* hover */
+.header-menu ul li ul{
+   opacity: 0;
+   visibility: hidden;
+   transform: scaleY(0);
+   transform-origin: top center;
+}
+.header-menu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
