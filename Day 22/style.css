@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+h2{
+    color: red;
+    text-align: center;
+    font-size: 25px;
+}
+
+h2::after{
+    content: "age";
+    font-size: 25px;
+}
+h2::before{
+    content: "pore";
+}
+
+p{
+    text-align: center;
+
+}
+
+p::before{
+    content: '"';
+}
+p::after{
+    content: '"';
+}
+
+.button-div{
+    text-align: center;
+}
+.click-class{
+    font-size: 50px;
+    text-decoration: none;
+    color: rgb(254, 255, 255);
+    display: inline-block;
+    background-color: rgb(2, 112, 214);
+    padding: 15px 40px;
+    border-radius: 10px;
+    position: relative;
+    z-index:1;
+   
+}
+.click-class::before{
+    content: "";
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    background-color: sienna;
+    border-radius: 10px;
+    transition: .4;
+    z-index:-1;
+
+}
+.click-class:hover::before{
+    content: "";
+    width: 100%;
+}
