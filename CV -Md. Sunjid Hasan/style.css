@@ -1,0 +1,159 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: #EEE;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.container{
+    padding: 25px;
+    max-width: 1000px;
+    background-color: #E4F9F5;
+    margin: 0 auto;
+}
+
+/* Header start ===============================*/
+
+header{}
+.profile-image{
+    width: 150px;
+    height: 150px;
+    border: 5px solid white;
+    border-radius: 50%;
+    float: left;
+}
+
+.header-bio{
+    float: left;
+    padding: 50px 25px ;
+   
+    
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    color: #11999e ;
+}
+
+.header-contact{
+    float: right;
+    padding: 35px;
+}
+
+.header-contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+
+.header-contact a:hover{
+    color: tomato;
+    
+}
+
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+/* Header end ==============================*/
+
+
+/* Personal information section start =====*/
+
+.personal-section{
+
+}
+
+.content{
+    margin-bottom: 25px;
+}
+
+.left-div{
+    width: 30%;
+    float: left;
+}
+
+.right-div{
+    width: 70%;
+    float: right;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+
+
+.common-hr{
+    background: 1px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin: 0% auto;
+}
+/* Personal information section end */
+
+/* personal info start */
+
+.info-left{
+    float: left;
+    width: 25%;
+}
+
+.info-right{
+    float: left;
+    width: 65%;
+}
+/* personal info end*/
+
+/* skill ==================== start */
+.skill-left{
+    float: left;
+    width: 30%;
+}
+.skill-right{
+    float: left;
+    width: 65%;
+}
+/* skill ==================== end*/
+
+/* Education section end */
+.edu-left{
+    float: left;
+    width: 35%;
+}
+
+.edu-right{
+    float: right;
+    width: 35%;
+}
+
+
+/* footer section end */
+.bottom-container{
+   
+    margin-top: 25px;
+    padding: 5px;
+    word-spacing: 4px;
+    text-align: center;
+    color: white;
+    background-color: rgb(187, 216, 207);
+}
+
+.bottom-container a{
+    text-decoration: none;
+    
+}
+
+.bottom-container p{
+    color: rgb(65, 110, 192);
+    margin-top: 5px;
+    
+}
+/* footer section end */
