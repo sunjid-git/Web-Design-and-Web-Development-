@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hasan</title>
 </head>
 <body>
 
-    <h1>Hi, This is Sunjid Hasan</h1>
+    <h1 id="top" align="center">Hi, This is Sunjid Hasan</h1>
 
-    <img src="./Mumisingha.jpg" alt="mym" height="300px" width="300px">
+    <p align="center"><img src="./Mumisingha.jpg" alt="mym" height="300px" width="300px" align="center"></p>
 
     <hr>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/VLyktW15HXI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe align="center" width="260" height="215" src="https://www.youtube.com/embed/VLyktW15HXI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/_2b73KAzx1c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe align="center" width="560" height="315" src="https://www.youtube.com/embed/_2b73KAzx1c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <hr>
 
 
@@ -24,7 +24,7 @@
 
 
 
-    <table border="1">
+    <table border="1" align="center">
         <caption>info</caption>
 
         <tr>
@@ -52,24 +52,50 @@
     </table>
 
 
-    <form>
+    <form align="center">
 
         <fieldset>
             <legend>Info</legend>
-                  <b>UName : </b> <input type="text" placeholder="UName" pattern=[a-zA-Z0-9]+> <br>  <br> 
+
+
+                <datalist id="names">
+                        <option value="A">Abc</option>
+                        <option value="2">B</option>
+                        <option value="3">C</option>
+                </datalist>
+
+
+
+
+                  <b>UName : </b> <input type="text" list="names" placeholder="UName" pattern=[a-zA-Z0-9]+ > <br>  <br> 
                 <b>Password : </b> <input type="password" placeholder="********"> <br> <br> 
                 <b>Email : </b> <input type="Email" placeholder="Email"> <br><br>
 
 
-                <b>Religion : </b> <input type="radio" value="Religion" >Islam
-                <input type="radio" value="Religion">Not Islam      <br> <br>
+                <b>Religion : </b> <input type="radio" name="Religion" checked>Islam
+                <input type="radio" name="Religion">Not Islam      <br> <br>
 
-                <b>Gender : </b> <input type="checkbox" value="Gender" >Male
-                <input type="radio" value="Religion">female  <br> <br>
+                <b>Gender : </b> <input type="checkbox" name="Gender" >Male
+                <input type="checkbox" name="Religion">female  <br> <br>
 
 
-                <textarea name="Comment" id="" cols="30" rows="10" placeholder="Type Here"></textarea>
+                <b>Dept.</b>
+                <select>
+                    <option>S</option>
+                    <option>g</option>
+                    <option>v</option>
+                </select>
+                  <br> <br>
 
+                 
+                <p>Feed : <br> 
+                    <textarea name="Comment" id="" cols="30" rows="10" placeholder="Type Here"></textarea>
+
+
+                </p>
+
+                <input type="submit" value="Sbmit"> <br> <br>
+                <input type="reset" value="clear">
     </fieldset>
     </form>
     
@@ -82,7 +108,7 @@
     <ol>
         <li><a href="#" target="blank">i</a></li>
         <li><a href="#" target="blank">fb</a></li> 
-        <li><a href="#" target="blank">ut</a></li>
+        <li ><a href="" id="#top" >ut</a></li>
     </li>
     </ol>
 
