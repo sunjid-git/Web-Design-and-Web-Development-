@@ -1,0 +1,74 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    background-color: #3498db;
+}
+
+.header-logo img{
+    width: 150px;
+    height: auto;
+}
+.primary-menu{}
+.primary-menu ul{
+    margin-bottom: 0px;
+    text-align: right;
+}
+.primary-menu ul li{
+    display: inline-block;
+}
+.primary-menu ul li a{
+    display: block;
+    color: white;
+    padding: 0 30px;
+    font-size:20px ;
+    line-height: 75px;
+    transition: .4s;
+    text-decoration: none;
+}
+
+.primary-menu ul li a:hover{
+    transform: scale(1.5);
+}
+.banner{
+    background-image: url(../pics/road.jpg);
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-text{
+    color: rgb(146, 16, 16);
+}
+.about{
+    background-color: #bdc3c7;
+}
+.service{
+    background-color: #bdc3c7;
+}
+.card i{
+    padding-top: 15px;
+    font-size: 50px;
+    color: tomato;
+}
+.product-right ul{
+    list-style: none;
+    padding-left: 0;
+}
+.product-right ul li{
+    background-color: #ddd;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.footer{
+    
+    background-color: #3498db;
+    color: white;
+}
+.footer-right a{
+    color: white;
+    margin-left: 15px;
+   display: inline-block;
+}
