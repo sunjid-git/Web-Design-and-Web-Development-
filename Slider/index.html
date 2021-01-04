@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sliding images with the dot in parallal order</h1>
+    <div class="slideshow-container">
+        <div class="myslides  fade">
+            <div class="number">
+                <p>1/6</p>
+            </div>
+            <img src="./1.jpg" alt="">
+        </div>
+        
+        <div class="myslides  fade">
+            <div class="number">
+                <p>2/6</p>
+            </div>
+            <img src="./2.jpg" alt="">
+        </div>
+
+        <div class="myslides  fade">
+            <div class="number">
+                <p>3/6</p>
+            </div>
+            <img src="./3.jpg" alt="">
+        </div>
+
+        <div class="myslides  fade">
+            <div class="number">
+                <p>4/6</p>
+            </div>
+            <img src="./4.jpg" alt="">
+        </div>
+
+        <div class="myslides  fade">
+            <div class="number">
+                <p>5/6</p>
+            </div>
+            <img src="./5.jpg" alt="">
+        </div>
+
+        <div class="myslides  fade">
+            <div class="number">
+                <p>6/6</p>
+            </div>
+            <img src="./6.jpg" alt="">
+        </div>
+
+
+        <a class="previous" onclick="pushslides(-1)">&#10094;</a>
+        <a class="next" onclick="pushslides(1)">&#10094;</a>
+    </div>
+
+    <div class="dot-symbols">
+        <span class="dot" onclick="currentslide(1)"></span>
+        <span class="dot" onclick="currentslide(2)"></span>
+        <span class="dot" onclick="currentslide(3)"></span>
+        <span class="dot" onclick="currentslide(4)"></span>
+        <span class="dot" onclick="currentslide(5)"></span>
+        <span class="dot" onclick="currentslide(6)"></span>
+    </div>
+</body>
+
+<script>
+    var sliderIndex=1;
+    showslides(sliderIndex);
+    function pushslides(n){
+        showslides(slidesIndex +=n);
+    }
+    function currentslides(n){
+        showslides(slidesIndex = n);
+    }
+    function showslides(n){
+        var i;
+        var slides =
+        document.getElementsByClassName("myslides");
+        var dots = document.getElementsByClassName("dot");
+        if(n>slides.length){
+            sliderIndex=1;
+        }
+        if(n<1){
+            sliderIndex=slides.length;
+        }
+        for(i=0; i<slides.length; i++){
+            slides[i].style.display="none";
+        }
+        for(i=0; i<dots.length; i++){
+            dots[i].className=dots[i].className.replace("active","")
+        }
+        slides[slidesIndex-1].style.display="block";
+        dots[slidesIndex - 1].className+="active";
+    
+    }
+</script>
+</html>
+

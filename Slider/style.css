@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+h1{
+    text-align: center;
+    background: teal;
+    color: white;
+    padding: 20px; 
+    border-bottom: 5px solid
+}
+
+.myslides{}
+.img{
+    vertical-align: middle;
+  
+}
+
+#slider{
+    width: 100%;
+    height: 450px;
+}
+
+.slideshow-container{
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.previous, .next{
+    cursor: pointer;
+    top: 50%;
+    position: absolute;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 0px 3px;
+    transition: 0.6s ease;
+}
+
+.next{
+    right: 0;
+    border-radius: 3px 3px;
+}
+.previous:hover, .next:hover{
+    background:rgba(0,0,0,0.5);
+}
+
+.number{
+    color: #f2f2f2;
+    font-size: 18px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+.dot-symbols{
+    margin: auto;
+    text-align: center;
+}
+.dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0px 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: 00.6s ease;
+}
+
+.active, .dot:hover{
+    background-color: #717171;
+}
+
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+
+}
+
+@keyframes fade{
+    from{opacity: .4;} 
+    to{opacity: 1;}
+}
