@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Card</title>
+</head>
+
+    <style>
+
+        .card-containers{
+            box-sizing: border-box;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: cadetblue;
+            padding: 20px 0;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            width: 300px;
+            margin: 10px;
+            box-sizing: border-box;
+            box-shadow: 1px 2px 4px black;
+        }
+        .img-style{
+            width: 300px;
+        }
+
+        .card-body{
+            padding: 15px;
+            background-color: teal;
+        }
+
+        .card-body .card-title{
+            font-size: 2rem;
+            text-align: center;
+           color: tomato;
+        }
+        .card-body .card-desc{
+            text-align: justify;
+            line-height: 1.5px;
+            color: tomato;
+        }
+
+        .card:hover{
+            box-shadow: 5px 15px 15px gray;
+        }
+    </style>
+
+
+<body>
+    <div class="card-containers">
+        <div class="card">
+            <img class="img-style" src="./1.jpg" alt="">
+            
+            <div class="card-body">
+                <div class="card-title">
+                    HTML
+                </div>
+                <div class="card-desc">
+                    <p>Hyper Text Markup Language</p>
+                </div>
+            </div>
+       
+        </div>
+
+        <div class="card">
+            <img class="img-style" src="./1.jpg" alt="">
+            
+            <div class="card-body">
+                <div class="card-title">
+                    HTML
+                </div>
+                <div class="card-desc">
+                    <p>Hyper Text Markup Language</p>
+                </div>
+            </div>
+       
+        </div>
+
+        <div class="card">
+            <img class="img-style" src="./1.jpg" alt="">
+            
+            <div class="card-body">
+                <div class="card-title">
+                    HTML
+                </div>
+                <div class="card-desc">
+                    <p>Hyper Text Markup Language</p>
+                </div>
+            </div>
+       
+        </div>
+    </div>
+</body>
+</html>
